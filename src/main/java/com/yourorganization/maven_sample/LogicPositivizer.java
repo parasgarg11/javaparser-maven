@@ -61,5 +61,12 @@ public class LogicPositivizer {
                 CodeGenerationUtils.mavenModuleRoot(LogicPositivizer.class)
                         // appended with a path to "output"
                         .resolve(Paths.get("output")));
+        // This saves all the files we just read to an output directory.  
+        sourceRoot.saveAll(
+                // The path of the Maven module/project which contains the LogicPositivizer class.
+                CodeGenerationUtils.mavenModuleRoot(LogicPositivizer.class)
+                        // appended with a path to "output"
+                        .resolve(Paths.get("output")));
+      =
     }
 }
