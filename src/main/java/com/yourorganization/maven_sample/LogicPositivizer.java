@@ -67,6 +67,5 @@ public class LogicPositivizer {
                 CodeGenerationUtils.mavenModuleRoot(LogicPositivizer.class)
                         // appended with a path to "output"
                         .resolve(Paths.get("output")));
-      =
     }
 }
