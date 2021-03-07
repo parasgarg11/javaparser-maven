@@ -1,4 +1,4 @@
-package com.mkyong.examples;
+package com.yourorganization.maven_sample;
 
 import org.junit.jupiter.api.Test;
 
